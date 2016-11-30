@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'oswaldmedium';
+    src: url('oswald-medium-webfont.woff2') format('woff2'),
+         url('oswald-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  font-family: 'Oswald';
+  src: url('oswald-medium-webfont.woff2') format('woff2'),
+       url('oswald-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.parallax-container {
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  height: 500px;
+}
+.parallax-layer {
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: 1920px 750px;
+}
+  .layer-0 {
+    top: 0;
+    z-index: 5;
+    background: #000000 url('resources/logo.png') no-repeat top 40px center;
+    background-size: 500px 200px;
+  }
+  .layer-1 {
+    top: 0px;
+    z-index: 5;
+    background-image: url('resources/upside/1.png');
+  }
+  .layer-2 {
+    top: 0px;
+    z-index: 10;
+    background-image: url('resources/upside/2.png');
+  }
+  .layer-3 {
+    top: 0px;
+    z-index: 15;
+    background-image: url('resources/upside/3.png');
+  }
+  /*.layer-4 {
+    top: 20px;
+    z-index: 20;
+    background-image: url('resources/up/upbu.png');
+  }
+  .layer-5 {
+    top: 10px;
+    z-index: 25;
+    background-image: url('resources/up/upg.png');
+  }*/
+
+
+.content {
+  position: relative;
+  top: 600px;
+  margin-bottom: 200px;
+  background: url('resources/back.png');
+  width: 100%;
+  min-height: 400px;
+}
+
+.nav {
+  position: relative;
+  top: 220px;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  min-height: 40px;
+
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    padding: 0px 30px;
+    color: #fff;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.textBottom {
+  text-align: center;
+  position:absolute;
+  bottom:0;
+}
+.content h1 {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content p {
+  color: #fff;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+.content footer {
+  color: #fff;
+  padding-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
