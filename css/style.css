@@ -137,9 +137,13 @@ body {
 
 .slideshow-container {
     max-width: 500px;
-    max-height: 800px;
+    max-height: 500px;
     position: relative;
     margin: auto;
+}
+
+.slideshow-container .mySlides fade img {
+    max-height: 15%;
 }
 
 .mySlides {
