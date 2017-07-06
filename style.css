@@ -1,0 +1,90 @@
+/*css*/
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 100vw;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.navBar {
+  position: absolute;
+  background-color: transparent;
+  top: 7vw;
+  left: 29vw;
+  /*border: solid red;*/
+}
+
+
+/* Style the links inside the navigation bar */
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.5vw 2vw;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  font-size: 2vw;
+  opacity: 0;
+  /*border: solid blue;*/
+}
+
+
+/* Change the color of links on hover */
+
+.navBar a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+#topBanner img {
+  length: 100vh;
+  width: 100vw;
+}
+
+#line {
+  position: absolute;
+  top: 10vw;
+  left: 12%;
+  width: 85%;
+  /*border: solid blue;*/
+}
+
+#name {
+  position: absolute;
+  top: 2vw;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  font-size: 6vw;
+}
+
+#meStuff {
+  margin-top: 4vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+#meHeader {
+  font-size: 6vw;
+  text-align: center;
+  overflow: hidden;
+}
+
+#meText {
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+
+#test1 {
+  /*border: solid blue;*/
+}
