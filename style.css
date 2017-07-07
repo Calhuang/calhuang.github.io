@@ -5,7 +5,8 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  width: 100vw;
+  width: 100%;
+  /*border: solid red;*/
 }
 
 
@@ -46,7 +47,7 @@ body {
 
 #topBanner img {
   length: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 #line {
@@ -60,7 +61,7 @@ body {
 #name {
   position: absolute;
   top: 2vw;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
   color: white;
@@ -86,5 +87,6 @@ body {
 }
 
 #test1 {
+  display: inline-block;
   /*border: solid blue;*/
 }
