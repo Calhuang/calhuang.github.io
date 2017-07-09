@@ -68,12 +68,19 @@ function hover1() {
 
   });
 }
+var myVideo = document.getElementById('meText');
 
-var textExpand = anime({
-  targets: '#meText',
-  scale: [0, 1],
-  delay: 4000,
-  duration: 1000,
-  elasticity: 300,
-  // easing: 'easeInOutQuart'
-});
+VisSense.VisMon.Builder(VisSense(meText, {
+    fullyvisible: 0.75
+  }))
+  .on('fullyvisible', function(monitor) {
+    var textExpand = anime({
+      targets: '#meText',
+      scale: [0, 1],
+      duration: 1000,
+      elasticity: 300,
+      // easing: 'easeInOutQuart'
+    });
+  })
+  .build()
+  .start();
