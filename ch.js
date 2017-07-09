@@ -72,10 +72,10 @@ var meText = document.getElementById('meText');
 
 VisSense.VisMon.Builder(VisSense(meText, {
     fullyvisible: 0.75,
-    hidden: 0.75,
+    hidden: 0.35,
   }))
   .on('fullyvisible', function(monitor) {
-    meText.style.opacity = 1;
+    // meText.style.opacity = 1;
     var textExpand = anime({
 
       targets: '#meText',
@@ -86,7 +86,15 @@ VisSense.VisMon.Builder(VisSense(meText, {
     });
   })
   .on('hidden', function(monitor) {
-    meText.style.opacity = 0;
+    // meText.style.opacity = 0;
+    var textExpand2 = anime({
+
+      targets: '#meText',
+      scale: [1, .1],
+      duration: 1000,
+      elasticity: 300,
+      // easing: 'easeInOutQuart'
+    });
   })
   .build()
   .start();
