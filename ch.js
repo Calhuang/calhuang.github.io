@@ -68,19 +68,25 @@ function hover1() {
 
   });
 }
-var myVideo = document.getElementById('meText');
+var meText = document.getElementById('meText');
 
 VisSense.VisMon.Builder(VisSense(meText, {
-    fullyvisible: 0.75
+    fullyvisible: 0.75,
+    hidden: 0.75,
   }))
   .on('fullyvisible', function(monitor) {
+    meText.style.opacity = 1;
     var textExpand = anime({
+
       targets: '#meText',
       scale: [0, 1],
       duration: 1000,
       elasticity: 300,
       // easing: 'easeInOutQuart'
     });
+  })
+  .on('hidden', function(monitor) {
+    meText.style.opacity = 0;
   })
   .build()
   .start();
