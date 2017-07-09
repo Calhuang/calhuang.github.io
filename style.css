@@ -17,6 +17,7 @@ body {
   background-color: transparent;
   top: 7vw;
   left: 29vw;
+  text-shadow: 2px 1px #ababab;
   /*border: solid red;*/
 }
 
@@ -84,6 +85,20 @@ body {
 #meText {
   margin-top: 1vw;
   font-size: 2vw;
+  /*border: solid;*/
+}
+
+#meText img {
+  margin-top: 1vw;
+  width: 80vw;
+}
+
+#meText p {
+  position: absolute;
+  font-size: 3vw;
+  color: white;
+  margin: 2vw;
+  top: 3vw;
 }
 
 #test1 {

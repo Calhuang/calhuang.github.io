@@ -68,3 +68,12 @@ function hover1() {
 
   });
 }
+
+var textExpand = anime({
+  targets: '#meText',
+  scale: [0, 1],
+  delay: 4000,
+  duration: 1000,
+  elasticity: 300,
+  // easing: 'easeInOutQuart'
+});
