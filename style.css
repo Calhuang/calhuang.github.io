@@ -73,18 +73,42 @@ body {
   margin-top: 4vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
 }
 
 #meHeader {
   font-size: 6vw;
   text-align: center;
   overflow: hidden;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+}
+
+#meHeader2 {
+  font-size: 6vw;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+}
+
+#pros {
+  margin-left: 6vw;
+  margin-top: 6vw;
+}
+
+#box1, #box2, #box3 {
+  width: 28.5vw;
+  height: 33.4vw;
 }
 
 #meText {
   margin-top: 1vw;
   font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   /*border: solid;*/
 }
 
@@ -104,4 +128,10 @@ body {
 #test1 {
   display: inline-block;
   /*border: solid blue;*/
+}
+
+#tri img {
+  margin-left: 48vw;
+  width: 3vw;
+  height: 3vw;
 }
