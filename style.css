@@ -98,9 +98,9 @@
       }
 
       #pros {
-        display: flex;
         margin-left: 6vw;
         margin-top: 6vw;
+        display: flex;
       }
 
       #box1 p span {
@@ -175,6 +175,7 @@
         padding: 50px;
         font-size: 35px;
         width: 4vw;
+        height: 4vw;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
@@ -219,4 +220,18 @@
         margin-top: 2.5vw;
         margin-left: 1vw;
         color: #232b2b;
+      }
+
+      @media screen and (max-width: 1840px) and (min-width: 0px) {
+        #pros {
+          flex-flow: column;
+          margin-left: 20vw;
+        }
+        #box1, #box2, #box3 {
+          margin-bottom: 400px;
+          float: left;
+        }
+        #socall {
+          margin-left: 2vw;
+        }
       }
