@@ -44,6 +44,18 @@ var top3 = anime({
 
 
 });
+var color = anime({
+  targets: '#soc',
+  direction: 'alternate',
+  scale: 1.1,
+  color: '#000',
+  duration: 500,
+  elasticity: 400,
+  delay: 1000,
+  loop: true,
+  easing: 'easeInOutQuad'
+
+});
 
 
 // var top4 = anime({
@@ -64,7 +76,7 @@ function hover1() {
     targets: '#box1',
     elasticity: 500,
     scale: 1.1,
-    duration: 700,
+    duration: 300,
     direction: 'alternate',
     easing: 'easeInOutQuart'
 
@@ -77,7 +89,7 @@ function hover2() {
     targets: '#box2',
     elasticity: 500,
     scale: 1.1,
-    duration: 700,
+    duration: 300,
     direction: 'alternate',
     easing: 'easeInOutQuart'
 
@@ -90,7 +102,7 @@ function hover3() {
     targets: '#box3',
     elasticity: 500,
     scale: 1.1,
-    duration: 700,
+    duration: 300,
     direction: 'alternate',
     easing: 'easeInOutQuart'
 

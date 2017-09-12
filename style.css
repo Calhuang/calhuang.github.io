@@ -1,137 +1,222 @@
-/*css*/
+      /*css*/
 
-body {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  width: 100%;
-  /*border: solid red;*/
-}
+      body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        /*border: solid red;*/
+      }
+      /* Add a black background color to the top navigation */
 
+      .navBar {
+        position: absolute;
+        background-color: transparent;
+        top: 7vw;
+        left: 29vw;
+        text-shadow: 2px 1px #ababab;
+        /*border: solid red;*/
+      }
+      /* Style the links inside the navigation bar */
 
-/* Add a black background color to the top navigation */
+      .navBar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1.5vw 2vw;
+        text-decoration: none;
+        font-family: 'Julius Sans One', sans-serif;
+        color: white;
+        font-size: 2vw;
+        opacity: 0;
+        /*border: solid blue;*/
+      }
+      /* Change the color of links on hover */
 
-.navBar {
-  position: absolute;
-  background-color: transparent;
-  top: 7vw;
-  left: 29vw;
-  text-shadow: 2px 1px #ababab;
-  /*border: solid red;*/
-}
+      .navBar a:hover {
+        background-color: #eee;
+        color: black;
+      }
 
+      #topBanner img {
+        length: 100vh;
+        width: 100%;
+      }
 
-/* Style the links inside the navigation bar */
+      #line {
+        position: absolute;
+        top: 10vw;
+        left: 12%;
+        width: 85%;
+        /*border: solid blue;*/
+      }
 
-.navBar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 1.5vw 2vw;
-  text-decoration: none;
-  font-family: 'Julius Sans One', sans-serif;
-  color: white;
-  font-size: 2vw;
-  opacity: 0;
-  /*border: solid blue;*/
-}
+      #name {
+        position: absolute;
+        top: 2vw;
+        width: 100%;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        color: white;
+        font-size: 6vw;
+      }
 
+      #meStuff {
+        margin-top: 4vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+      }
 
-/* Change the color of links on hover */
+      #meHeader {
+        font-size: 6vw;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+      }
 
-.navBar a:hover {
-  background-color: #eee;
-  color: black;
-}
+      #meHeader2 {
+        font-size: 6vw;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+      }
 
-#topBanner img {
-  length: 100vh;
-  width: 100%;
-}
+      #meHeader3 {
+        margin-top: 4vw;
+        font-size: 6vw;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+      }
 
-#line {
-  position: absolute;
-  top: 10vw;
-  left: 12%;
-  width: 85%;
-  /*border: solid blue;*/
-}
+      #pros {
+        display: flex;
+        margin-left: 6vw;
+        margin-top: 6vw;
+      }
 
-#name {
-  position: absolute;
-  top: 2vw;
-  width: 100%;
-  text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
-  color: white;
-  font-size: 6vw;
-}
+      #box1 p span {
+        position: relative;
+        top: -300px;
+        left: 50px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.5vw;
+        color: #232b2b;
+      }
 
-#meStuff {
-  margin-top: 4vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: bold;
-}
+      #box1 p, #box2 p, #box3 p {
+        width: 80%;
+      }
 
-#meHeader {
-  font-size: 6vw;
-  text-align: center;
-  overflow: hidden;
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: bold;
-}
+      #box2 p span {
+        position: relative;
+        top: -300px;
+        left: 50px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.5vw;
+        color: #232b2b;
+      }
 
-#meHeader2 {
-  font-size: 6vw;
-  text-align: center;
-  overflow: hidden;
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: bold;
-}
+      #box3 p span {
+        position: relative;
+        top: -300px;
+        left: 50px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.5vw;
+        color: #232b2b;
+      }
 
-#pros {
-  margin-left: 6vw;
-  margin-top: 6vw;
-}
+      #box1, #box2, #box3 {
+        width: 28.5vw;
+        height: 33.4vw;
+      }
 
-#box1, #box2, #box3 {
-  width: 28.5vw;
-  height: 33.4vw;
-}
+      #meText {
+        margin-top: 1vw;
+        font-size: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        /*border: solid;*/
+      }
 
-#meText {
-  margin-top: 1vw;
-  font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  /*border: solid;*/
-}
+      #meText img {
+        margin-top: 1vw;
+        width: 80vw;
+      }
 
-#meText img {
-  margin-top: 1vw;
-  width: 80vw;
-}
+      #meText p {
+        position: absolute;
+        font-size: 3vw;
+        color: white;
+        margin: 2vw;
+        top: 3vw;
+      }
 
-#meText p {
-  position: absolute;
-  font-size: 3vw;
-  color: white;
-  margin: 2vw;
-  top: 3vw;
-}
+      #test1 {
+        display: inline-block;
+        /*border: solid blue;*/
+      }
 
-#test1 {
-  display: inline-block;
-  /*border: solid blue;*/
-}
+      #tri img {
+        margin-left: 48vw;
+        width: 3vw;
+        height: 3vw;
+      }
 
-#tri img {
-  margin-left: 48vw;
-  width: 3vw;
-  height: 3vw;
-}
+      .fa {
+        padding: 50px;
+        font-size: 35px;
+        width: 4vw;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      .fa-github {
+        background: #000000;
+        color: white;
+      }
+
+      #socall {
+        display: flex;
+        margin-top: 10vw;
+        margin-left: 12vw;
+      }
+
+      #soccontainer {
+        display: flex;
+        margin: 3vw;
+        /*border: 2px solid grey;
+        border-radius: 5px;*/
+      }
+
+      #soc {
+        font-family: 'Cabin', sans-serif;
+        font-size: 2.5vw;
+        margin-top: 2.5vw;
+        margin-left: 1vw;
+        color: #232b2b;
+      }

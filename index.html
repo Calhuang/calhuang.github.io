@@ -10,14 +10,15 @@
   <meta name="Calvin Huang" content="Website">
 
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto|Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="navBar" id="nav">
     <a id="me" href="#meHeader">About Me</a>
     <a id="projects" href="#meHeader2">My Projects</a>
-    <a id="contact" href="#contact">Contact</a>
+    <a id="contact" href="#meHeader3">Contact</a>
   </div>
 
   <div id="topBanner">
@@ -52,13 +53,44 @@
   <div id="meHeader2">Projects</div>
 
   <div id="pros">
-    <img id="box1" onmouseover="hover1()" src="alexa.png" />
-    <img id="box2" onmouseover="hover2()" src="weather.png" />
-    <img id="box3" onmouseover="hover3()" src="chem.png" />
+    <div id="box1">
+      <a href="https://github.com/tbreier/alexa-unitrans">
+      <img onmouseover="hover1()" src="alexa.png" />
+    </a>
+      <p><span>Amazon Alexa Skill<br /><br />An Alexa skill to grab bus data from the Nextbus API, parse it into JSON data, and inform the user of the bus schedule near them.</span></p>
+    </div>
+    <div id="box2">
+      <a href="https://github.com/Calhuang/WeatherApp">
+      <img onmouseover="hover2()" src="weather.png" />
+    </a>
+      <p><span>Weather Web App<br /><br />A web app to grab Weather information from the Yahoo API and display it.</span></p>
+    </div>
+    <div id="box3">
+      <a href="https://github.com/Calhuang/chemquest">
+      <img onmouseover="hover3()" src="chem.png" />
+    </a>
+      <p><span>Chemquest<br /><br />A Google Cardboard app that teaches students chemistry through immersive VR experiences! Developed in Unity.</span></p>
+    </div>
+
 
   </div>
-
+  <div id="meHeader3">Contact Me</div>
+  <div id="socall">
+    <div id="soccontainer">
+      <a href="https://www.facebook.com/calvin.lin.946" class="fa fa-facebook fa-4x"></a>
+      <div id="soc">Facebook</div>
+    </div>
+    <div id="soccontainer">
+      <a href="https://www.linkedin.com/in/calhuang1/" class="fa fa-linkedin fa-4x"></a>
+      <div id="soc">LinkedIn</div>
+    </div>
+    <div id="soccontainer">
+      <a href="https://github.com/Calhuang/" class="fa fa-github fa-4x"></a>
+      <div id="soc">GitHub</div>
+    </div>
   </div>
+  </div>
+  <footer><br /><br /><br /><br /><br /><br /><br /><br /></footer>
   <script src="vissense.min.js "></script>
   <script src="anime.min.js "></script>
   <script src="ch.js "></script>
