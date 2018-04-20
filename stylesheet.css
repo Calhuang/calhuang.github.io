@@ -70,10 +70,14 @@ a:hover {}
 #ghcard-Calhuang-1 {
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 7%;
+  margin-top: 3%;
 }
 
 #gitcards {
   align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   display: flex;
   width: 100%;
   justify-content: center;
