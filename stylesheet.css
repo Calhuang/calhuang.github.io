@@ -67,7 +67,17 @@ a:hover {}
   list-style-type: none;
 }
 
-.github-card {}
+#ghcard-Calhuang-1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#gitcards {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 
 .social {
   font-size: 20px;
