@@ -72,6 +72,7 @@ a:hover {}
   margin-right: 5%;
   margin-bottom: 7%;
   margin-top: 3%;
+  flex-wrap: wrap;
 }
 
 #gitcards {
