@@ -1,5 +1,5 @@
 html {
-  background: url(images/background.jpg) no-repeat center center fixed;
+  background: url(https://source.unsplash.com/collection/986443) no-repeat center center fixed;
   /*www.instagram.com/sam.forson/*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -192,7 +192,7 @@ a:hover {}
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 5px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-transition: all 0.20s ease-in-out;
   -moz-transition: all 0.20s ease-in-out;
   -ms-transition: all 0.20s ease-in-out;
