@@ -1,4 +1,5 @@
 var color_rand = "#c7ce7d";
+var rotate_bool = 0;
 
 window.onload = function() {
 
@@ -69,6 +70,15 @@ function getRandomInt(min, max) {
 }
 
 function changeColor (){
+
+  // animation
+  if (rotate_bool == 0) {
+  document.getElementById('button_cb2').style.WebkitTransform = "rotate(360deg)";
+  rotate_bool = 1;
+} else {
+  document.getElementById('button_cb2').style.WebkitTransform = "rotate(0deg)";
+  rotate_bool = 0;
+}
 
 // randomizer
 var bg_red = getRandomInt(100,256);  // random from range 0 to 255

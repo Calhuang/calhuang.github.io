@@ -183,6 +183,13 @@ a:hover {}
   /* border-radius: 10px; */
 }
 
+#button_cb2 {
+  -webkit-transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -ms-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+}
+
 .text_box {
   background: rgba(77, 184, 95, 1);
   /* padding-left: 3%;
