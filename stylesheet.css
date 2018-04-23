@@ -43,8 +43,9 @@ html {
 }
 
 #button_cb {
-  margin-top: 70vh;
-  margin-bottom: 18px;
+  position: absolute;
+  align-self: center;
+  bottom: 0;
 }
 
 a {
@@ -144,6 +145,11 @@ a:hover {}
 }
 
 .aniseven {
+  -webkit-animation-delay: 2.2s;
+  -moz-animation-delay: 2.2s;
+}
+
+.anieight {
   -webkit-animation-delay: 2.2s;
   -moz-animation-delay: 2.2s;
 }
