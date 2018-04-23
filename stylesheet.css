@@ -252,3 +252,8 @@ body {
   height: inherit;
   /* border-style: dashed; */
 }
+
+.pdfobject-container {
+  width: 600px;
+  height: 800px;
+}

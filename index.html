@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   <script src="web.js"></script>
   <script src="hsluv-0.0.3.min.js"></script>
+  <script src="pdfobject.min.js"></script>
+  <script>
+    PDFObject.embed("/images/resume.pdf", "#pdf");
+  </script>
 </head>
 
 <body>
@@ -76,7 +80,9 @@
         <h1 id='aboutme'>Resume</h1>
         <div class='text_box2'>
 
-          <p id='aboutme_text'><embed src="images/resume.pdf" width="600px" height="800px" /></p>
+          <p id='aboutme_text'>
+            <div id="pdf"></div>
+          </p>
         </div>
       </div>
       <div class='text_box' id='aboutme_hide'>
