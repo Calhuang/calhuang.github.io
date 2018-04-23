@@ -1,6 +1,7 @@
 window.onload = function() {
 
 
+
 var visibleY = function(el){
   var rect = el.getBoundingClientRect(), top = rect.top, height = rect.height,
     el = el.parentNode;
@@ -59,3 +60,28 @@ attachEvent(document.getElementById('info_box'), "scroll", update);
 attachEvent(window, "resize", update);
 update();
 };
+
+function changeColor (){
+
+// randomizer
+var bg_red = Math.floor(Math.random() * 256);  // random from range 0 to 255
+var bg_green = Math.floor(Math.random() * 256);  // random from range 0 to 255
+var bg_blue = Math.floor(Math.random() * 256);  // random from range 0 to 255
+
+// combine into string
+var rand_color = "rgba("+ bg_red +", "+bg_green+", "+bg_blue+", 1)";
+var rand_color_trans = "rgba("+ bg_red +", "+bg_green+", "+bg_blue+", .4)";
+
+console.log(rand_color);
+
+  //change elements
+  var change1 = document.getElementsByClassName('text_box');
+  for (var i = 0; i < change1.length; i++) {
+  change1[i].style.background = rand_color;
+}
+
+  var change2 = document.getElementById('navbar_container');
+  change2.style.background = rand_color_trans;
+
+
+}
