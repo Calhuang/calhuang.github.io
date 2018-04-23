@@ -253,7 +253,7 @@ body {
   /* border-style: dashed; */
 }
 
-.pdfobject-container {
+#resume {
   width: 600px;
   height: 800px;
 }
