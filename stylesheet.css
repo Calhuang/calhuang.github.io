@@ -212,6 +212,7 @@ a:hover {}
 }
 
 .text_box2 {
+  -webkit-transform: translate3d(0, 0, 0);
   background: rgba(42, 43, 44, 1);
   /* background: rgba(36, 33, 36, 1); */
   /* background: rgba(240, 240, 240, 1); */
