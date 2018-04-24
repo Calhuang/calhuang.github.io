@@ -91,7 +91,7 @@ var bg_blue_dark = Math.floor(Math.random() * 100);  // random from range 0 to 2
 
 var hsluv_hue_rand = getRandomInt(0,361);
 var hsluv_sat_rand = getRandomInt(80,101);
-var hsluv_light_rand = getRandomInt(70,90);
+var hsluv_light_rand = getRandomInt(60,80);
 
 var hsluv_hue_rand_dark = getRandomInt(0,361);
 var hsluv_sat_rand_dark = getRandomInt(80,101);
@@ -121,6 +121,8 @@ var hsla_color = "rgba("+ hsluv_hue_rand +", "+hsluv_sat_rand+", "+hsluv_light_r
 
   var change2 = document.getElementById('navbar_container');
   change2.style.background = hsla_color;
+  var change2 = document.getElementById('profile');
+  change2.style.borderColor= hsluv_color;
 
   var change3 = document.getElementsByClassName('text_box2');
   for (var j = 0; j < change3.length; j++) {
@@ -129,7 +131,17 @@ var hsla_color = "rgba("+ hsluv_hue_rand +", "+hsluv_sat_rand+", "+hsluv_light_r
 
 
 }
+function showCoords(event) {
+    var x = event.clientX;
+    var y = event.clientY;
+    var mouseHue = (((x - 0) * (360 - 0)) / (document.getElementById("profile").offsetWidth - 0)) + 0;
+    console.log(mouseHue);
+    var hsluv_sat_rand_prof = getRandomInt(90,101);
+    var hsluv_color_prof = window.hsluv.hsluvToHex([mouseHue, hsluv_sat_rand_prof, 90]);
+    document.getElementById("profile").style.borderColor = "hsla("+mouseHue+",100% ,50%,1.0)";
 
-function hardwareAccel() {
+}
 
+function clearCoor() {
+    document.getElementById("profile").style.borderColor = "#c7ce7d";
 }

@@ -21,7 +21,7 @@ html {
 
 #navbar {
   display: flex;
-  margin-top: 25vh;
+  /* margin-top: 25vh; */
   align-items: padding-left;
   /* background-color: lightblue; */
   font-family: 'Roboto Condensed', sans-serif;
@@ -39,6 +39,7 @@ html {
   padding-left: 0;
   list-style-type: none;
   width: 10vw;
+  margin-left: 2vw;
 }
 
 #button_cb {
@@ -77,6 +78,7 @@ a:hover {}
 #social_nav {
   margin-top: 10%;
   list-style-type: none;
+  margin-left: 2vw;
 }
 
 #ghcard-Calhuang-1 {
@@ -153,6 +155,11 @@ a:hover {}
   -moz-animation-delay: 2.2s;
 }
 
+.aninine {
+  -webkit-animation-delay: 1.0s;
+  -moz-animation-delay: 1.0s;
+}
+
 .active {
   color: white;
 }
@@ -166,6 +173,16 @@ a:hover {}
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   text-align: justify;
+}
+
+#profile {
+  border-radius: 100%;
+  background: grey;
+  width: 15vw;
+  height: 15vw;
+  margin-top: 5vh;
+  border-color: #c7ce7d;
+  border-style: inset;
 }
 
 #info_box {
