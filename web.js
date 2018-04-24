@@ -111,7 +111,7 @@ var rand_color_dark = "rgba("+ bg_red_dark +", "+bg_green_dark+", "+bg_blue_dark
 var rand_color_trans = "rgba("+ hsluv_color2[0] +", "+hsluv_color2[1]+", "+hsluv_color2[2]+", .4)";
 var hsla_color = "rgba("+ hsluv_hue_rand +", "+hsluv_sat_rand+", "+hsluv_light_rand+", .4)";
 
-console.log("rgba("+hsluv_color2[0]+","+hsluv_color2[1]+","+hsluv_color2[2]+",1)");
+
 
   //change elements
   var change1 = document.getElementsByClassName('text_box');
@@ -127,5 +127,9 @@ console.log("rgba("+hsluv_color2[0]+","+hsluv_color2[1]+","+hsluv_color2[2]+",1)
   change3[j].style.background = hsluv_color_dark;
 }
 
+
+}
+
+function hardwareAccel() {
 
 }

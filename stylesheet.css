@@ -191,6 +191,7 @@ a:hover {}
 }
 
 .text_box {
+  -webkit-transform: translate3d(0, 0, 0);
   background: rgba(77, 184, 95, 1);
   /* padding-left: 3%;
   padding-right: 3%; */
